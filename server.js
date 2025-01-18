@@ -11,8 +11,11 @@ server.use(middlewares)
 server.db = router.db;
 server.use(auth);
 server.use(router)
-server.listen(3000, () => {
-    console.log('JSON Server is running')
+
+const PORT = process.env.PORT || 3000;
+
+server.listen(PORT, () => {
+    console.log(`JSON Server is running on http://localhost:${PORT}`)
 })
 
 // Export the Server API
