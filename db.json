@@ -1,3 +1,23 @@
 {
-    "users": []
-}
+    "users": [
+      {
+        "user_id": "u123",
+        "username": "creative_A"
+      },
+      {
+        "user_id": "u124",
+        "username": "creative_B"
+      }
+    ],
+    "subscriptions": [
+      {
+        "subscription_id": "s298",
+        "subscriber_id": "u124",
+        "subscribed_to_id": "u123",
+        "started_at": "2025-01-22",
+        "expires_at": "2025-02-22",
+        "status": false
+      }
+    ]
+  }
+  

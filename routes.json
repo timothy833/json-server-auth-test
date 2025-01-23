@@ -1,0 +1,3 @@
+{
+    "/blog/creators/:id/subscriptions": "/subscriptions?subscribed_to_id=:id"
+}
